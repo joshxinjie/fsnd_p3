@@ -33,3 +33,36 @@ The `./backend` directory contains a partially completed Flask server with a pre
 The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app.
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
+
+## Setup
+
+### 1. Set Up Python Virtual Environment
+
+Create a new virtual environment:
+```
+python3 -m virtualenv fsndp3
+```
+
+Activate the environment:
+```
+source fsndp3/bin/activate
+```
+
+Install the pip dependencies
+```
+pip install -r requirements.txt
+```
+
+https://github.com/jungleBadger/udacity_coffee_shop/blob/master/troubleshooting/generate_token.md
+
+In `backend` directory:
+
+```
+export FLASK_APP=/home/xinlee/Documents/fsnd_p3/backend/src/api.py;
+flask run --reload
+```
+
+In the frontend directory:
+```
+ionic serve
+```
