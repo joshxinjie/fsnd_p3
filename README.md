@@ -34,9 +34,9 @@ The `./frontend` directory contains a complete Ionic frontend to consume the dat
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
 
-## Setup
+## Own Setup
 
-### 1. Set Up Python Virtual Environment
+### Virtual Environment
 
 Create a new virtual environment:
 ```
@@ -53,7 +53,7 @@ Install the pip dependencies
 pip install -r requirements.txt
 ```
 
-https://github.com/jungleBadger/udacity_coffee_shop/blob/master/troubleshooting/generate_token.md
+### Run Backend Server
 
 In `backend` directory:
 
@@ -62,7 +62,13 @@ export FLASK_APP=/home/xinlee/Documents/fsnd_p3/backend/src/api.py;
 flask run --reload
 ```
 
+### Run Frontend Server
+
 In the frontend directory:
 ```
 ionic serve
 ```
+
+### Useful Links
+
+https://github.com/jungleBadger/udacity_coffee_shop/blob/master/troubleshooting/generate_token.md
